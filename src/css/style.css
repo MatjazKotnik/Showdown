@@ -1,0 +1,53 @@
+.backgr1{
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  background-image: url('../img/back.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center center;
+}
+
+.leftside {
+    position: absolute;
+    background-image: url(../img/left.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: right bottom;
+    height:100%;
+    width: 40%;
+    left:0px;
+    top:0px;
+}
+
+.leftside img {
+    height: 100%;
+    width: auto;
+}
+
+.rightside {
+    position: absolute;
+    background-image: url(../img/right.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: left bottom;
+    height:100%;
+    width: 40%;
+    right:0px;
+    top:0px;
+}
+
+.rightside img {
+    height: 100%;
+    width: auto;
+}
+
+#mgacontainer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left:0;
+  right: 0;
+}
